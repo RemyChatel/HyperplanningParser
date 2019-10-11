@@ -9,7 +9,7 @@ This script requires the "PyPi ICS" module from https://pypi.org/project/ics/
 
 Run ```pip install ics``` to install the module
 
-Download the .py file from the repositry in the directory of your choice.
+Download [here](https://github.com/RemyChatel/HyperplanningParser/releases/latest) the .py file from the repositry in the directory of your choice.
 
 ## How to use
 Simply open the script in a text editor and fill in the ```url = ""``` variable with the URL provided by Hyperplanning (see picture below)
