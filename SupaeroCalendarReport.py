@@ -122,6 +122,17 @@ else:
 text_output.append("\n\nTimetable report for {:s}".format(username))
 text_output.append("Generated on {:%d-%m-%y}\n\n".format(datetime.now(timezone.utc)))
 
+text_output.append(separator)
+text_output.append("| {:^8s} | {:^35s} | {:^5s} | {:^5s} | {:^5s} | {:^5s} | {:^5s} |".format(
+            "Code",
+            "Course name",
+            "Done",
+            "Spent",
+            "Total",
+            "Begin",
+            "End"
+        ))
+
 for e in courses:
     if not hide_completed or e[2] != e[3]:
         text_output.append(separator)
