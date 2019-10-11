@@ -5,7 +5,7 @@ A simple parser for Hyperplanning hosted at ISAE-SUPAERO
 ## Installation
 This script requires Python 2.7 and above installed
 
-This script requires the "Pipy ICS" module from https://pypi.org/project/ics/
+This script requires the "PyPi ICS" module from https://pypi.org/project/ics/
 
 Run ```pip install ics``` to install the module
 
